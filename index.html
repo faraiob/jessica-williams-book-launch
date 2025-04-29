@@ -3,12 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jessica Williams Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>This is a heading</h1> 
-   <p>This is is a trial mockup project for setting up a site</p>
-<img src="assets/images/01-02-02_ci-logo.png" alt="Code Institute Logo">
+
+<header class="header">
+    <div class="logo">Jessica Williams Studio</div>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+</header>
+
+<main>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+    <div class="home-content">
+        <img src="book-image.jpg" alt="Book Launch Image" class="home-image">
+        <div class="home-text">
+            <h1>Book Launch</h1>
+            <p>Launch Date: <strong>1st October 2025, 11 AM</strong><br>At Jessica Williams London Studio</p>
+            <a href="#signup" class="btn">Join the Launch Event</a>
+        </div>
+    </div>
+</section>
+
+<!-- Signup Form -->
+<section id="signup" class="signup-section">
+    <h2>Stay in Touch and Get 10% Off!</h2>
+    <form class="signup-form">
+        <input type="text" placeholder="Name and Surname" required>
+        <input type="email" placeholder="Email Address" required>
+        <button type="submit" class="btn">Sign Up</button>
+    </form>
+</section>
+
+<!-- Reviews -->
+<section class="reviews-section">
+    <h2>Reviews</h2>
+    <div class="reviews">
+        <div class="review-card">
+            <p><em>“This work is a statement showing us an evolved artist who continues to represent the modern aesthetic.”</em></p>
+            <h4>- Craft Magazine</h4>
+        </div>
+        <div class="review-card">
+            <p><em>“Jessica is my go-to ceramist, phenomenal and dependable.”</em></p>
+            <h4>- Bianca Mira, Interior Designer</h4>
+        </div>
+        <div class="review-card">
+            <p><em>“For contemporary style in ceramics, this is a must-see at Jessica Williams Studio.”</em></p>
+            <h4>- The Guardian UK</h4>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <h2>About Jessica Williams</h2>
+    <div class="about-content">
+        <img src="jessica.jpg" alt="Jessica Williams" class="about-image">
+        <div class="about-text">
+            <p>The work and art of ceramic making has been a part of my family life for generations. Born in Namibia, pottery played a vital role in our daily lives. In the early 2000s, I decided to fully dedicate my career to this artistry after several years working in project management for a creative agency. My work in ceramics for me is a source of calm and focus that bears similarities to meditation. My process begins with research for each piece before I begin to make it, inspired by nature and form. It has been an honor showcasing these pieces in Namibia and around the world including Istanbul, Cairo, Peru, New York, to name a few. My finished works gravitate towards simplicity and bold presentations, and I hope this book is a visual enjoyment for your leisure. Heartfelt thanks to my friends and associates at the studio in London as well as Search Press UK and Ceramics Southern Africa for their support.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="ceramic1.jpg" alt="Ceramic Piece 1">
+        <img src="ceramic2.jpg" alt="Ceramic Piece 2">
+        <img src="ceramic3.jpg" alt="Ceramic Piece 3">
+        <img src="ceramic4.jpg" alt="Ceramic Piece 4">
+        <img src="ceramic5.jpg" alt="Ceramic Piece 5">
+        <img src="ceramic6.jpg" alt="Ceramic Piece 6">
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <p><strong>Address:</strong> Jessica Williams Studio, 22 Wascott Road, London, WC3E</p>
+        <p><strong>Opening Hours:</strong> <br>Mon–Thu: 9:00–17:00 | Fri–Sat: 9:00–15:00 | Sun: Closed</p>
+        <p><strong>Phone:</strong> 07737583516</p>
+        <p><strong>Email:</strong> <a href="mailto:WilliamsJ@studio.co.uk">WilliamsJ@studio.co.uk</a></p>
+        <div class="socials">
+            <a href="https://www.instagram.com/">Instagram</a> | 
+            <a href="https://www.facebook.com/">Facebook</a> | 
+            <a href="https://x.com/i/flow/login">Twitter</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2025 Jessica Williams Studio. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
