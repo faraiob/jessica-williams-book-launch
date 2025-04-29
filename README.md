@@ -36,26 +36,27 @@ Contact Section
 
 
 TESTING
-
-
+Tested on Safari and Chrome
+This project is responsive
+Navigation is readable and easy to understand
 
 BUGS
-
+No bugs were found
 
 VALIDATOR TESTING
-
-
+Using W3 validator-no errors found
 
 UNFIXED BUGS
 
 
 DEPLOYMENT
-
+The site was deployed to github pages
 
 
 
 CREDITS
-
+Javasc used for navigation credit to author Srinivasa Rao Pavuluru
+Html and css form and navigation credit to Srinivasa Rao Pavuluru
 
 
 MEDIA
